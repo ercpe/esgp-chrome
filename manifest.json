@@ -1,0 +1,16 @@
+{
+  "name": "eSGP",
+  "version": "1.0",
+  "description": "Chrome/Chromium extension for eSGP",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "nativeMessaging", "tabs"
+  ],
+  "browser_action": {}
+}
